@@ -5,7 +5,7 @@ import card from "./card.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import logo from "./logo.svg";
-import mylogo from './logo.png'
+
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import send from "./Send.svg";
@@ -27,7 +27,7 @@ import people03 from "./people03.png";
 import rob from "./rob.png"
 
 export {
-  mylogo,
+ 
   rob,
   airbnb,
   bill,
