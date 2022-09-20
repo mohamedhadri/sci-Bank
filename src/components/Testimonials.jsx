@@ -1,7 +1,32 @@
-// import { feedback } from "../constants";
-
-// import FeedbackCard from "./FeedbackCard";
+export const feedback = [
+  {
+    id: "feedback-1",
+    content:
+      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+    name: "Herman Jensen",
+    title: "Founder & Leader",
+    img: people01,
+  },
+  {
+    id: "feedback-2",
+    content:
+      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+    name: "Steve Mark",
+    title: "Founder & Leader",
+    img: people02,
+  },
+  {
+    id: "feedback-3",
+    content:
+      "It is usually people in the money business, finance, and international trade that are really rich.",
+    name: "Kenn Gallagher",
+    title: "Founder & Leader",
+    img: people03,
+  },
+];
 import styles from "../style";
+import FeedbackCard from "./FeedbackCard";
+
 const Testimonials = () => (
   <section id="clients" className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}>
     <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient bottom-40" />
@@ -18,9 +43,9 @@ const Testimonials = () => (
       </div>
     </div>
 
-    {/* <div className="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]">
-      {feedback.map((card) => <FeedbackCard key={card.id} {...card} />)}
-    </div> */}
+    <div className="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]">
+      { feedback.map((card) => <FeedbackCard key={card.id} {...card} />)}
+    </div>
   </section>
 );
 
