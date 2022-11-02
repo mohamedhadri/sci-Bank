@@ -1,2 +1,2 @@
-# use this link to thee the app :
+# use this link to see the app :
 https://sci-bank.netlify.app/
